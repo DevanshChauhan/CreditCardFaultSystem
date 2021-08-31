@@ -1,0 +1,19 @@
+ 	   	     precision    recall  f1-score	
+Logistic             0.89      0.64      0.74
+Shallow      	     0.79      0.81      0.80
+Random Forest	     0.87      0.56      0.68
+gradient Boos	     0.77      0.69      0.73
+
+Balanced Section
+Logistic
+     Not Fraud       0.96      0.93      0.94      
+         Fraud       0.93      0.96      0.94
+NN
+     Not Fraud       0.93      0.93      0.93        72
+         Fraud       0.93      0.93      0.93        70
+Random Forest
+     Not Fraud       0.69      1.00      0.82        72
+         Fraud       1.00      0.54      0.70        70
+GBC
+     Not Fraud       0.81      1.00      0.89        72
+         Fraud       1.00      0.76      0.86        70
